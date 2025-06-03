@@ -1,0 +1,34 @@
+<!--
+  G-Cal Desktop
+  Copyright (c) 2025 Leon Rosenplänter
+  Licensed under the MIT License. See LICENSE file in the project root for full license information.
+-->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Offline / Keine Verbindung</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 10%; }
+        h1 { color: #d32f2f; }
+    </style>
+</head>
+<body>
+    <h1 id="headline"></h1>
+    <p id="message"></p>
+    <script>
+        const de = {
+            headline: "Keine Verbindung zum Google Kalender",
+            message: "Bitte überprüfe deine Internetverbindung und versuche es erneut."
+        };
+        const en = {
+            headline: "No connection to Google Calendar",
+            message: "Please check your internet connection and try again."
+        };
+        const lang = navigator.language.startsWith('de') ? 'de' : 'en';
+        const content = lang === 'de' ? de : en;
+        document.getElementById('headline').textContent = content.headline;
+        document.getElementById('message').textContent = content.message;
+    </script>
+</body>
+</html>
