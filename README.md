@@ -26,6 +26,4 @@ If you prefer to build from source:
 
 ## Disclaimer
 
-**G-Cal Desktop** is not affiliated with Google LLC or its products. This is an independent open-source project that simply displays the public web version of Google Calendar in its own window. All rights to Google Calendar and related trademarks belong to Google LLC.
-
----
+**G-Cal Desktop** is not affiliated with, supported, or endorsed by Google or its products. This is an independent open-source project that simply displays the public web version of Google Calendar in its own window. All rights to Google Calendar and related trademarks belong to Google. Find Google Terms of Service and Privacy Policy at https://www.google.com/intl/en/policies/.
