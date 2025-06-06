@@ -15,7 +15,7 @@ Simply download the latest version and run the `G-Cal.exe` file — no installat
 If you prefer to build from source:
 
 1. Download or clone the repository.
-2. Run `npm install` in the project directory.
+2. Install node.js
 3. Start the application with `npm start`.
 
 ## Used Packages
